@@ -1,5 +1,5 @@
 # React Demo
-This repo is from a live demo given for the [Intro to Full Stack Development Decal](https://fullstackdecal.com) at UC Berkeley. It is meant to give examples of conditional rendering, as well as using state with objects/arrays.
+This repo is from a lecture given for the [Intro to Full Stack Development Decal](https://fullstackdecal.com) at UC Berkeley. It is meant to give examples of conditional rendering, as well as using state with objects/arrays.
 ___
 ## Running Locally
 If you want to run this locally, first clone the repository:
