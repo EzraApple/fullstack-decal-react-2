@@ -1,0 +1,42 @@
+.new-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    transition: transform 0.2s;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.new-item:hover {
+    transform: scale(1.05);
+}
+.new-item input[type="text"],
+.new-item input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.new-item label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.new-item input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+.new-item button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}

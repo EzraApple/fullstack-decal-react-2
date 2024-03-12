@@ -1,0 +1,63 @@
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item h3, .menu-item p, .menu-item label, .menu-item input {
+    margin: 5px;
+    color: #666;
+}
+
+.menu-item h3 {
+    color: #333;
+}
+
+.available {
+    background-color: rgba(0, 128, 0, 0.2); /* Opaque green */
+}
+
+.not-available {
+    background-color: rgba(255, 0, 0, 0.2); /* Opaque red */
+}
+
+.menu-item input[type="text"], .menu-item input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* Allow inputs to grow and fill the available space */
+}
+
+.menu-item label {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+/* Add this style for the delete button */
+.delete-button {
+    background-color: #ffcccc;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add a hover effect for the delete button */
+.delete-button:hover {
+    background-color: #ff9999;
+}
