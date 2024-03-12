@@ -4,7 +4,7 @@ ___
 ## Running Locally
 If you want to run this locally, first clone the repository:
 ```
-git clone https://github.com/USERNAME/fullstack-decal-demop.git
+git clone https://github.com/USERNAME/fullstack-decal-react-2.git
 ```
 Then navigate to the project folder:
 ```
