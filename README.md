@@ -8,7 +8,7 @@ git clone https://github.com/USERNAME/fullstack-decal-react-2.git
 ```
 Then navigate to the project folder:
 ```
-cd fullstack-decal-demo
+cd fullstack-decal-react-2
 ```
 Then you can install the dependencies and run the app locally:
 ```
